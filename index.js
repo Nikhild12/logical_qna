@@ -10,6 +10,7 @@ const pascalTriangle = require('./pascalTriangle');
 const flattenArray = require('./flattenedArray');
 const stringToCamelCase = require('./stringToCamalCase');
 const factorial = require('./factorial');
+const spelendromeString = require('./spelendromStr');
 
 // addTwoNumber([2, 4, 3], [5, 6, 4]); // Output: [7, 0, 8]
 
@@ -34,4 +35,6 @@ const factorial = require('./factorial');
 
 // console.log(stringToCamelCase("another-example-string")); 
 
-console.log(factorial(5)); // Output: 120`)
+// console.log(factorial(5)); // Output: 120`)
+
+console.log(spelendromeString("leveldas")) // true

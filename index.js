@@ -11,6 +11,7 @@ const flattenArray = require('./flattenedArray');
 const stringToCamelCase = require('./stringToCamalCase');
 const factorial = require('./factorial');
 const spelendromeString = require('./spelendromStr');
+const medianNumber = require('./medianNumber');
 
 // addTwoNumber([2, 4, 3], [5, 6, 4]); // Output: [7, 0, 8]
 
@@ -25,7 +26,7 @@ const spelendromeString = require('./spelendromStr');
 // console.log(duplicateWord('abcabcddffyehr'))
 
 // console.log(subSetGeneration([1, 2, 3]));
- 
+
 
 // console.log(removeAdjacentChar("aaabbcdddde"))
 
@@ -37,4 +38,6 @@ const spelendromeString = require('./spelendromStr');
 
 // console.log(factorial(5)); // Output: 120`)
 
-console.log(spelendromeString("leveldas")) // true
+// console.log(spelendromeString("leveldas")) // true
+
+console.log(medianNumber([1, 3], [2])); // Output: 2

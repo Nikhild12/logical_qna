@@ -12,6 +12,9 @@ const stringToCamelCase = require('./stringToCamalCase');
 const factorial = require('./factorial');
 const spelendromeString = require('./spelendromStr');
 const medianNumber = require('./medianNumber');
+const commonData = require('./common');
+const longestPalindromicSubstring = require('./longestPalindromicSubString');
+const reverseInteger = require('./reverseInteger');
 
 // addTwoNumber([2, 4, 3], [5, 6, 4]); // Output: [7, 0, 8]
 
@@ -40,4 +43,17 @@ const medianNumber = require('./medianNumber');
 
 // console.log(spelendromeString("leveldas")) // true
 
-console.log(medianNumber([1, 3], [2])); // Output: 2
+// console.log(medianNumber([1, 3], [2])); // Output: 2
+
+// console.log(commonData([
+// {name: "a", class: 5},
+// {name: "b", class: 6},
+// {name: "c", class: 5},
+// {name: "d", class: 6},
+// ]
+// ))
+
+
+// console.log(longestPalindromicSubstring("xabay"))
+
+console.log(reverseInteger(123))

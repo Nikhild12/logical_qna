@@ -15,6 +15,9 @@ const medianNumber = require('./medianNumber');
 const commonData = require('./common');
 const longestPalindromicSubstring = require('./longestPalindromicSubString');
 const reverseInteger = require('./reverseInteger');
+const longIncSubsequence = require('./longestIncreasingSubsequence');
+const { default: removeDuplicate } = require('./removeDuplicateNum');
+const { default: reverseStringFromIndex } = require('./reverseStringFromIndex');
 
 // addTwoNumber([2, 4, 3], [5, 6, 4]); // Output: [7, 0, 8]
 
@@ -24,7 +27,7 @@ const reverseInteger = require('./reverseInteger');
 
 // primeNumber([2, 3, 4, 5, 6, 7, 8, 9, 10]); // Output: [2, 3, 5, 7]
 
-// console.log(panlindromeNumber(12321.68))
+// console.log(panlindromeNumber(10))
 
 // console.log(duplicateWord('abcabcddffyehr'))
 
@@ -56,4 +59,45 @@ const reverseInteger = require('./reverseInteger');
 
 // console.log(longestPalindromicSubstring("xabay"))
 
-console.log(reverseInteger(123))
+// console.log(reverseInteger(123))
+
+// console.log(longIncSubsequence([10, 9, 2, 5, 3, 7, 101, 18]))
+
+// console.log(removeDuplicate([1,2,3,4,5,6,7,8,9,8,7,5,4,3,2]))
+console.log(reverseStringFromIndex('hello',0,2))
+
+
+// console.log("undefined" == undefined)
+
+
+// const promiseA = new Promise(resolve=>{
+//     resolve(10)
+// })
+
+// const promiseB = new Promise(resolve=>{
+//     resolve(120)
+// })
+
+// const promiseC = new Promise((resolve,reject)=>{
+//     reject("Error")
+// })
+
+
+// promiseA.then(res=>{
+//     console.log("promiseA res=>",res)
+// })
+
+// promiseB.then(res=>{
+//     console.log("promiseB res=>",res)
+// })
+
+// promiseC.catch(err=>console.log(err))
+
+// Promise.all([promiseA,promiseB,promiseC]).then((res=>{
+//     console.log("resolved promise ===>",res)
+// })).catch(err=>{
+//     console.log("reject promise ===>",err)
+// })
+
+// const data1 = new Boolean(false)
+//   console.log("data1",data1)

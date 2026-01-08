@@ -23,3 +23,5 @@ const duplicateWord = function(str) {
 }
 
 module.exports = duplicateWord;
+
+console.log(duplicateWord('abcabcddffyehr'));

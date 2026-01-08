@@ -14,3 +14,5 @@ function removeAdjacentChar(str) {
 }
 
 module.exports = removeAdjacentChar
+
+console.log(removeAdjacentChar("aaabbcdddde"));

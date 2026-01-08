@@ -20,3 +20,5 @@ function reverseStringFromIndex(input_str, start_idx,end_idx) {
 }
 
 export default reverseStringFromIndex;
+
+console.log(reverseStringFromIndex('hello',0,2));

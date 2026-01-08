@@ -45,3 +45,9 @@ function commonData(arr) {
 }
 
 module.exports = commonData;
+console.log(commonData([
+{name: "a", class: 5},
+{name: "b", class: 6},
+{name: "c", class: 5},
+{name: "d", class: 6},
+]));

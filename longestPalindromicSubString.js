@@ -28,3 +28,5 @@ function isPalindromeString(str) {
 }
 
 module.exports = longestPalindromicSubstring
+
+console.log(longestPalindromicSubstring("xabay"));

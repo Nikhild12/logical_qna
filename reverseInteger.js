@@ -22,3 +22,5 @@ function reverseInteger(num) {
   }
 }
 module.exports = reverseInteger;
+
+console.log(reverseInteger(123));

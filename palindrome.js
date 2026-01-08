@@ -18,3 +18,5 @@ const panlindromeNumber = function(number) {
 }
 
 module.exports = panlindromeNumber;
+
+console.log(panlindromeNumber(10));

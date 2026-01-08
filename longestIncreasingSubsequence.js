@@ -62,3 +62,5 @@ function longIncSubsequence(arr) {
 }
 
 module.exports = longIncSubsequence;
+
+console.log(longIncSubsequence([10, 9, 2, 5, 3, 7, 101, 18]));

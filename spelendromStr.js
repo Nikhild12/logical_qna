@@ -20,3 +20,5 @@ function spelendromeString(str) {
 }
 
 module.exports = spelendromeString;
+
+console.log(spelendromeString("leveldas")); // true

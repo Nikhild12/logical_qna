@@ -23,3 +23,5 @@ function stringToCamelCase(str) {
 }
 
 module.exports = stringToCamelCase;
+
+console.log(stringToCamelCase("another-example-string"));

@@ -16,3 +16,6 @@ const secondTopScore = function (arr) {
 } 
 
 module.exports = secondTopScore;
+
+
+console.log(secondTopScore([2, 2, 2])); // Output: 89

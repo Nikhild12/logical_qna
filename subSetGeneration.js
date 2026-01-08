@@ -20,3 +20,6 @@ const subSetGeneration = (inputArr) => {
   }
 
 module.exports = subSetGeneration
+
+
+console.log(subSetGeneration([1, 2, 3]));

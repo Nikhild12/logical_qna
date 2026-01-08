@@ -22,3 +22,5 @@ function medianNumber(firstArr,secondArr) {
   }
 
   module.exports = medianNumber;
+
+console.log(medianNumber([1, 3], [2])); // Output: 2

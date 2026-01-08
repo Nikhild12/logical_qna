@@ -43,3 +43,5 @@ const lengthOfLongestSubstring = function(str) {
 };
 
 module.exports = lengthOfLongestSubstring;
+
+console.log(lengthOfLongestSubstring("dvdf")); // Output: 3

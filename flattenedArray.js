@@ -20,3 +20,5 @@ function flattenArray(arr) {
 }
 
 module.exports = flattenArray;
+
+console.log(flattenArray([1, [3, 4], [5]])); // Output: [1, 3, 4, 5]
